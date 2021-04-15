@@ -1,0 +1,60 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  margin-top: 0;
+}
+
+.login {
+  background-color: #fff;
+  padding: 2em;
+  border-radius: .25em;
+  width: 20vw;
+}
+
+.field {
+  display: flex;
+  margin-bottom: .75em;
+}
+
+.field:last-of-type {
+  margin-bottom: 1.5em;
+}
+
+.fieldInput {
+  flex: 1;
+}
+
+.fieldInput, 
+.fieldLabel {
+  border: 1px solid #ddd;
+  padding: .5em .75em;
+}
+
+.fieldLabel {
+  background-color: #eee;
+  border-right: none;
+  color: #777;
+}
+
+.submitButton {
+  padding: .5em .75em;
+}
+
+.loading {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.error {
+  margin-top: 1.25em;
+  color: maroon;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.success {
+  font-family: Helvetica, Arial, sans-serif;
+}
